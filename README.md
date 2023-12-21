@@ -107,10 +107,13 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-## Procedure
+## Procedure:
+1.Using nand gates and wires construct SR flip flop.
 
+2.Repeat same steps to construct JK,D,T flipflops.
 
-### PROGRAM 
+3.Find RTL logic and timing diagram for all flipflops.
+## Program: 
 ### SR Flip-Flop:
 ```
 module srflipflop(S,R,clk,Q,Qbar);
@@ -178,13 +181,13 @@ endmodule
 ![DE Experiment 5(t)RTL output](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/5352452b-584d-478a-9ab6-bef76bd88894)
 ## Truth table:
 ### SR Flip-Flop:
-
+![DE Experiment 5(sr) truth table](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/0f3465cb-14f2-43e8-91c8-dc5894e83e4a)
 ### D Flip-Flop:
-
+![DE Experiment 5(d) truth table](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/30f80091-603a-4bb0-b67e-e9ff8a1fd7e7)
 ### JK Flip-Flop:
-
+![DE Experiment 5(jk) truthtable](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/f7f6e32f-ff5d-4c1a-9877-49004b71c5ab)
 ### T Filp-Flop:
-
+![DE Experiment 5(t) truth table](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/420d17d4-ad2b-4103-9bdc-549bd1fd4a10)
 ### Timing diagram:
 ### SR Flip-Flop:
 ![DE Experiment 5(sr) Waveform output](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/8e385a9e-7113-407d-bef7-3fd664204da7)
@@ -194,5 +197,5 @@ endmodule
 ![DE Experiment 5(jk) Waveform output](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/14498e53-db8e-400c-a739-3de71c2236a9)
 ### T Filp-Flop:
 ![DE Experiment 5(t)Waveform output](https://github.com/nithilans060306/Experiment--05-Implementation-of-flipflops-using-verilog/assets/147473026/d1214bf4-3212-4f76-9ac6-cd0cea5e3ffa)
-### Results:
-
+## Results:
+Thus, the implementation of SR,JK,D and T flipflops using nand gates are done sucessfully.
